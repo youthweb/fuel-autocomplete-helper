@@ -1,6 +1,6 @@
 <?php
 
-// Version: FuelPHP 1.2
+// Version: FuelPHP 1.7.2
 
 class Asset_Instance extends Fuel\Core\Asset_Instance {}
 class Cache_Handler_Json extends Fuel\Core\Cache_Handler_Json {}
@@ -11,10 +11,13 @@ abstract class Cache_Storage_Driver extends Fuel\Core\Cache_Storage_Driver {}
 class Cache_Storage_File extends Fuel\Core\Cache_Storage_File {}
 class Cache_Storage_Memcached extends Fuel\Core\Cache_Storage_Memcached {}
 class Cache_Storage_Redis extends Fuel\Core\Cache_Storage_Redis {}
+class Cache_Storage_Xcache extends Fuel\Core\Cache_Storage_Xcache {}
 class CacheNotFoundException extends Fuel\Core\CacheNotFoundException {}
+class Config_Db extends Fuel\Core\Config_Db {}
 abstract class Config_File extends Fuel\Core\Config_File {}
 class Config_Ini extends Fuel\Core\Config_Ini {}
 class Config_Json extends Fuel\Core\Config_Json {}
+class Config_Memcached extends Fuel\Core\Config_Memcached {}
 class Config_Php extends Fuel\Core\Config_Php {}
 class Config_Yml extends Fuel\Core\Config_Yml {}
 abstract class Controller_Hybrid extends Fuel\Core\Controller_Hybrid {}
@@ -38,7 +41,7 @@ class Database_Exception extends Fuel\Core\Database_Exception {}
 class Database_Expression extends Fuel\Core\Database_Expression {}
 class Database_Query extends Fuel\Core\Database_Query {}
 abstract class Database_Result extends Fuel\Core\Database_Result {}
-class Database_Transaction extends Fuel\Core\Database_Transaction {}
+class Event_Instance extends Fuel\Core\Event_Instance {}
 class Fieldset_Field extends Fuel\Core\Fieldset_Field {}
 class File_Handler_Directory extends Fuel\Core\File_Handler_Directory {}
 class File_Handler_File extends Fuel\Core\File_Handler_File {}
@@ -48,6 +51,7 @@ abstract class Image_Driver extends Fuel\Core\Image_Driver {}
 class Image_Gd extends Fuel\Core\Image_Gd {}
 class Image_Imagemagick extends Fuel\Core\Image_Imagemagick {}
 class Image_Imagick extends Fuel\Core\Image_Imagick {}
+class Lang_Db extends Fuel\Core\Lang_Db {}
 abstract class Lang_File extends Fuel\Core\Lang_File {}
 class Lang_Ini extends Fuel\Core\Lang_Ini {}
 class Lang_Json extends Fuel\Core\Lang_Json {}
@@ -56,6 +60,8 @@ class Lang_Yml extends Fuel\Core\Lang_Yml {}
 class Model_Crud extends Fuel\Core\Model_Crud {}
 class Mongo_DbException extends Fuel\Core\Mongo_DbException {}
 class Mongo_Db extends Fuel\Core\Mongo_Db {}
+class RedisException extends Fuel\Core\RedisException {}
+class Redis_Db extends Fuel\Core\Redis_Db {}
 class Request_Curl extends Fuel\Core\Request_Curl {}
 class RequestException extends Fuel\Core\RequestException {}
 class RequestStatusException extends Fuel\Core\RequestStatusException {}
@@ -119,9 +125,8 @@ class Num extends Fuel\Core\Num {}
 class PackageNotFoundException extends Fuel\Core\PackageNotFoundException {}
 class Package extends Fuel\Core\Package {}
 class Pagination extends Fuel\Core\Pagination {}
+class Presenter extends Fuel\Core\Presenter {}
 class Profiler extends Fuel\Core\Profiler {}
-class RedisException extends Fuel\Core\RedisException {}
-class Redis extends Fuel\Core\Redis {}
 class Request extends Fuel\Core\Request {}
 class Response extends Fuel\Core\Response {}
 class Route extends Fuel\Core\Route {}
