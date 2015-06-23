@@ -1,6 +1,6 @@
 <?php
 
-// Version: FuelPHP 1.7.2
+// Version: FuelPHP 1.7.3
 
 class Asset_Instance extends Fuel\Core\Asset_Instance {}
 class Cache_Handler_Json extends Fuel\Core\Cache_Handler_Json {}
